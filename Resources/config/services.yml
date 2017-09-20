@@ -1,0 +1,16 @@
+services:
+  mztx.ticket_bundle.grid_field.product_is_ticket:
+    class: mztx\TicketBundle\Grid\FieldType\ProductIsTicket
+    arguments: ["@doctrine.orm.entity_manager","@twig"]
+    tags:
+      - { name: sylius.grid_field, type: product_is_ticket }
+
+  mztx.ticket_bundle.listener.admin.menu_builder:
+    class: mztx\TicketBundle\Menu\AdminMenuListener
+    tags:
+      - { name: kernel.event_listener, event: sylius.menu.admin.main, method: addAdminMenuItems }
+
+  mztx.ticket_bundle.listener.admin.product_menu_builder:
+    class: mztx\TicketBundle\Menu\AdminProductMenuListener
+    tags:
+      - { name: kernel.event_listener, event: sylius.menu.admin.product.form, method: addAdminProductMenuItems }

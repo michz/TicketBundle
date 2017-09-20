@@ -1,0 +1,13 @@
+mztx\TicketBundle\Entity\TicketProduct:
+  type: entity
+  table: ticket_product
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: NONE
+  fields:
+    isTicket:
+      type: boolean
+      nullable: false
+      column: is_ticket

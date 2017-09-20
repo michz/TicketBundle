@@ -1,0 +1,9 @@
+sylius_grid:
+  grids:
+    sylius_admin_product:
+      fields:
+        isTicket:
+          type: product_is_ticket
+          label: ticket_bundle.admin.product.is_ticket
+          options:
+            template: "@SyliusUi/Grid/Field/enabled.html.twig"

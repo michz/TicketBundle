@@ -1,0 +1,8 @@
+ticket_bundle:
+  admin:
+    menu:
+      ticket: "Ticketshop"
+      template: "Designs"
+    product:
+      menu_ticket: "Ticket"
+      is_ticket: "Ticket?"

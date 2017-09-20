@@ -1,0 +1,6 @@
+sylius_resource:
+  resources:
+    ticket_bundle.ticket_product:
+      driver: doctrine/orm
+      classes:
+        model: mztx\TicketBundle\Entity\TicketProduct

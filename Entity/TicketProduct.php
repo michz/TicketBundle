@@ -8,8 +8,6 @@ use Sylius\Component\Resource\Model\ResourceInterface;
 
 /**
  * @author  Michael Zapf <michi.zapf@gmail.com>
- * @date    16.09.17
- * @time    20:42
  */
 class TicketProduct implements ResourceInterface
 {

@@ -10,8 +10,6 @@ use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;
  * Class AdminMenuListener
  *
  * @author  Michael Zapf <michi.zapf@gmail.com>
- * @date    20.09.17
- * @time    19:24
  * @package mztx\TicketBundle\Menu
  */
 final class AdminMenuListener

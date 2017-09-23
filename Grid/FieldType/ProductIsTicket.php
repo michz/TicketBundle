@@ -11,8 +11,6 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * @author  Michael Zapf <michi.zapf@gmail.com>
- * @date    16.09.17
- * @time    21:41
  */
 class ProductIsTicket implements FieldTypeInterface
 {

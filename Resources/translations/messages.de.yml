@@ -6,3 +6,8 @@ ticket_bundle:
     product:
       menu_ticket: "Ticket"
       is_ticket: "Ticket?"
+
+  ui:
+    new_ticket_template: "Neues Design"
+    ticket_templates: "Designs"
+    label_content: "Code"

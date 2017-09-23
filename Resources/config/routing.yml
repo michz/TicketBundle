@@ -1,0 +1,8 @@
+ticket_ticket_template:
+  resource: |
+    alias: ticket_bundle.ticket_template
+    section: admin
+    templates: SyliusAdminBundle:Crud
+    grid: ticket_ticket_template
+  type: sylius.resource
+  prefix: /admin

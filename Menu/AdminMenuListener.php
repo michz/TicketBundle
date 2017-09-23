@@ -27,8 +27,9 @@ final class AdminMenuListener
         ;
 
         $ticketSubmenu
-            ->addChild('template')
+            ->addChild('template', ['route' => 'ticket_bundle_admin_ticket_template_index'])
             ->setLabel('ticket_bundle.admin.menu.template')
+            ->setLabelAttribute('icon', 'star')
         ;
     }
 }

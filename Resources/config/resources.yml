@@ -4,3 +4,8 @@ sylius_resource:
       driver: doctrine/orm
       classes:
         model: mztx\TicketBundle\Entity\TicketProduct
+
+    ticket_bundle.ticket_template:
+      driver: doctrine/orm
+      classes:
+        model: mztx\TicketBundle\Entity\TicketTemplate

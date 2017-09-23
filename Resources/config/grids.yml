@@ -7,3 +7,21 @@ sylius_grid:
           label: ticket_bundle.admin.product.is_ticket
           options:
             template: "@SyliusUi/Grid/Field/enabled.html.twig"
+    ticket_ticket_template:
+      driver:
+        name: doctrine/orm
+        options:
+          class: mztx\TicketBundle\Entity\TicketTemplate
+      fields:
+        name:
+          type: string
+          label: sylius.ui.name
+      actions:
+        main:
+          create:
+            type: create
+        item:
+          update:
+            type: update
+          delete:
+            type: delete

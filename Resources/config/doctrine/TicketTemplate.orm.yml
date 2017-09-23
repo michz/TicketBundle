@@ -1,0 +1,12 @@
+mztx\TicketBundle\Entity\TicketTemplate:
+  type: entity
+  table: ticket_template
+  id:
+    name:
+      type: string
+      generator:
+        strategy: NONE
+  fields:
+    content:
+      type: string
+      nullable: false
